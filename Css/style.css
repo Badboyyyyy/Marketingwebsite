@@ -29,10 +29,10 @@ section{
 	align-items:center;
 	width:100vw;
 	height:100vh;
-	background-image:url("../images/head.jpg");
+	background-image:url("../images/bkkk.jpg");
 	background-size:100%, 100%;
 	clip-path: ellipse(90% 80% at 50% 20%);
-	opacity: 0.5;
+	opacity: 0.8;
 	padding:10vh;
 }
 .content{
