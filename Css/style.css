@@ -19,10 +19,11 @@ html{
 	color:#000;
 	font-weight:600;
 }
-section{
-	width:100vw;
-	height:100vh;
+img{
+  width:182px;
+  height: 277px;
 }
+
 .home{
 	display:flex;
 	justify-content: center;
@@ -31,6 +32,8 @@ section{
 	height:100vh;
 	background-image:url("../images/bkkk.jpg");
 	background-size:100%, 100%;
+  background-size:cover;
+  background-repeat: no-repeat;
 	clip-path: ellipse(90% 80% at 50% 20%);
 	opacity: 0.8;
 	padding:10vh;
@@ -43,11 +46,7 @@ section{
 	justify-content: center;
 	align-items: center;
 }
-.card{
-	width:20vw;
-	height:40vh;
-	border:2px solid rgb();
-}
+
 .overlay{
 	  position: absolute;
   top: 0;
@@ -123,4 +122,18 @@ section{
   margin:auto;
   background:none;
   
+}
+@media(max-width:768px){
+  .part1{
+    display: none;
+  }
+  .owl-carousel{
+    width:auto;
+  }
+  .card{
+    display:block;
+    margin:auto;
+    margin-bottom: 10px;
+  }
+
 }
